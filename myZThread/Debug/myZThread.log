@@ -1,0 +1,73 @@
+﻿生成启动时间为 2019/5/21 10:14:02。
+     1>项目“D:\myZThread\myZThread\myZThread.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“Debug\myZThread.lastbuildstate”。
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(983,5): warning MSB3644: 未找到框架“.NETFramework,Version=v4.0”的引用程序集。若要解决此问题，请安装此框架版本的 SDK 或 Targeting Pack，或将应用程序的目标重新指向已装有 SDK 或 Targeting Pack 的框架版本。请注意，将从全局程序集缓存(GAC)解析程序集，并将使用这些程序集替换引用程序集。因此，程序集的目标可能未正确指向您所预期的框架。
+       InitializeBuildStatus:
+         正在对“Debug\myZThread.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\ZThread\ZThread-2.3.2\src\AtomicCount.cxx" "..\..\ZThread\ZThread-2.3.2\src\ConcurrentExecutor.cxx" "..\..\ZThread\ZThread-2.3.2\src\Condition.cxx" "..\..\ZThread\ZThread-2.3.2\src\CountingSemaphore.cxx" "..\..\ZThread\ZThread-2.3.2\src\FastMutex.cxx" "..\..\ZThread\ZThread-2.3.2\src\FastRecursiveMutex.cxx" "..\..\ZThread\ZThread-2.3.2\src\Monitor.cxx" "..\..\ZThread\ZThread-2.3.2\src\Mutex.cxx" "..\..\ZThread\ZThread-2.3.2\src\PoolExecutor.cxx" "..\..\ZThread\ZThread-2.3.2\src\PriorityCondition.cxx" "..\..\ZThread\ZThread-2.3.2\src\PriorityInheritanceMutex.cxx" "..\..\ZThread\ZThread-2.3.2\src\PriorityMutex.cxx" "..\..\ZThread\ZThread-2.3.2\src\PrioritySemaphore.cxx" "..\..\ZThread\ZThread-2.3.2\src\RecursiveMutex.cxx" "..\..\ZThread\ZThread-2.3.2\src\RecursiveMutexImpl.cxx" "..\..\ZThread\ZThread-2.3.2\src\Semaphore.cxx" "..\..\ZThread\ZThread-2.3.2\src\SynchronousExecutor.cxx" "..\..\ZThread\ZThread-2.3.2\src\Thread.cxx" "..\..\ZThread\ZThread-2.3.2\src\ThreadedExecutor.cxx" "..\..\ZThread\ZThread-2.3.2\src\ThreadImpl.cxx" "..\..\ZThread\ZThread-2.3.2\src\ThreadLocalImpl.cxx" "..\..\ZThread\ZThread-2.3.2\src\ThreadOps.cxx" "..\..\ZThread\ZThread-2.3.2\src\ThreadQueue.cxx" "..\..\ZThread\ZThread-2.3.2\src\Time.cxx"
+         Time.cxx
+     1>d:\zthread\zthread-2.3.2\src\posix\ftimestrategy.h(51): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\sys\timeb.h(124) : 参见“_ftime64”的声明
+     1>d:\zthread\zthread-2.3.2\src\posix\ftimestrategy.h(55): warning C4244: “return”: 从“const __time64_t”转换到“unsigned long”，可能丢失数据
+         ThreadQueue.cxx
+         ThreadOps.cxx
+         ThreadLocalImpl.cxx
+         ThreadImpl.cxx
+         ThreadedExecutor.cxx
+         Thread.cxx
+         SynchronousExecutor.cxx
+         Semaphore.cxx
+         RecursiveMutexImpl.cxx
+         RecursiveMutex.cxx
+         PrioritySemaphore.cxx
+         PriorityMutex.cxx
+         PriorityInheritanceMutex.cxx
+         PriorityCondition.cxx
+         PoolExecutor.cxx
+         Mutex.cxx
+         Monitor.cxx
+         FastRecursiveMutex.cxx
+         FastMutex.cxx
+         正在生成代码...
+         正在编译...
+         CountingSemaphore.cxx
+         Condition.cxx
+         ConcurrentExecutor.cxx
+         AtomicCount.cxx
+         正在生成代码...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\myZThread\Debug\myZThread.lib" /NOLOGO Debug\AtomicCount.obj
+         Debug\ConcurrentExecutor.obj
+         Debug\Condition.obj
+         Debug\CountingSemaphore.obj
+         Debug\FastMutex.obj
+         Debug\FastRecursiveMutex.obj
+         Debug\Monitor.obj
+         Debug\Mutex.obj
+         Debug\PoolExecutor.obj
+         Debug\PriorityCondition.obj
+         Debug\PriorityInheritanceMutex.obj
+         Debug\PriorityMutex.obj
+         Debug\PrioritySemaphore.obj
+         Debug\RecursiveMutex.obj
+         Debug\RecursiveMutexImpl.obj
+         Debug\Semaphore.obj
+         Debug\SynchronousExecutor.obj
+         Debug\Thread.obj
+         Debug\ThreadedExecutor.obj
+         Debug\ThreadImpl.obj
+         Debug\ThreadLocalImpl.obj
+         Debug\ThreadOps.obj
+         Debug\ThreadQueue.obj
+         Debug\Time.obj
+         myZThread.vcxproj -> D:\myZThread\Debug\myZThread.lib
+       FinalizeBuildStatus:
+         正在删除文件“Debug\myZThread.unsuccessfulbuild”。
+         正在对“Debug\myZThread.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\myZThread\myZThread\myZThread.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:21.02
